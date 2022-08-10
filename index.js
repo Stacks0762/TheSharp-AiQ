@@ -162,4 +162,4 @@ getToken((res) => {
 setInterval(() => {
   getNewState();
   log("New data was sended.");
-}, 30000);
+}, newInterval);
