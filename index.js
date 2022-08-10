@@ -8,8 +8,9 @@ const userId = "qwerty1234"; //더샵 AiQ 로그인 ID
 const password = "qwerty1234"; //더샵 AiQ 로그인 비밀번호
 const phone_uid = "AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA"; //더샵 AiQ앱 스마트폰 UUID
 const complex_code = "qwertyuiopasdfghjkl"; //더샵 아파트 코드
+const newInterval = 30000;//기기 상태들을 확인하는 시간 간격(30000 = 30초)
 const basic_token =
-  "Basic AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"; //
+  "Basic AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"; //앱의 패킷중, 로그인하는 패킷에 들어있는 데이터중 Authorization에 있습니다
 const mqttIP = "mqtt://0.0.0.0"; //MQTT IP
 const mqttPORT = 1883; //MQTT 포트
 const mqttClientID = "TheSharp-AIQHome"; //MQTT 클라이언트 ID(아무거나 해도 됩니다)
